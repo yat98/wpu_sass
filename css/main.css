@@ -1,35 +1,11 @@
-.main {
-  background-color: lightblue;
-}
-.main .main-heading {
-  font-size: 2em;
-}
-.main .main-paragraph {
-  font-size: 1.4em;
+body {
+  background-color: #faebd3;
 }
 
-.main h1, .main p, footer h1, footer p {
-  letter-spacing: 1px;
+h1 {
+  color: #faebd3;
 }
 
-/**
- * &
- * Parent Selector
- */
-.container .main {
-  background-color: red;
-}
-.main .main-heading {
-  font-size: 2em;
-}
-.main:hover {
-  background-color: salmon;
-}
-.main .main-heading {
-  color: white;
-  font-size: 2em;
-}
-.main .main-paragraph {
-  color: white;
-  font-size: 1.4em;
+p {
+  color: green;
 }/*# sourceMappingURL=main.css.map */

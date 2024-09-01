@@ -1,45 +1,37 @@
-.main{
-  background-color: lightblue;
+// CSS variabel
+// :root {
+//   --primary-color: #faebd3;
+//   --secondary-color: #a12421;
+//   --text-color: #f01a79;
+// }
 
-  .main-heading {
-    font-size: 2em;
-  }
+// body {
+//   background-color: var(--primary-color);
+// }
 
-  .main-paragraph {
-    font-size: 1.4em;
-  }
+// h1 {
+//   color: var(--text_color);
+// }
+
+// SASS Variabel
+$primary-color: green;
+$secondary-color: #a12421;
+$text-color: #f01a79;
+$alert: (
+	'danger': red,
+	'success': green,
+	'warning': orange,
+);
+
+body {
+  $primary-color: #faebd3 !global;
+  background-color: $primary-color;
 }
 
-.main, footer{
-  h1, p {
-    letter-spacing: 1px;
-  }
+h1 {
+  color: $primary-color;
 }
 
-/**
- * &
- * Parent Selector
- */
-.main {
-  .container &{
-    background-color: red;
-  }
-
-  .main-heading {
-    font-size: 2em;
-  }
-
-  &:hover{
-    background-color: salmon;
-  }
-
-  & &-heading {
-    color:white;
-    font-size: 2em;
-  }
-
-  & &-paragraph {
-    color:white;
-    font-size: 1.4em;
-  }
+p {
+  color: map-get($alert, 'success')
 }
