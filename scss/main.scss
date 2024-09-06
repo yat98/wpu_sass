@@ -1,65 +1,12 @@
-// .header ul, .footer ul {
-//   padding: 0;
-//   margin: 0;
-//   list-style: none;
-// }
+// Import 
+// @import "partials/mixin";
+// @import "partials/header";
+// @import "partials/container";
+// @import "partials/footer";
 
-// .header ul li, .footer ul li {
-//   display: inline;
-// }
+// @import "partials/mixin", "partials/header", "partials/container", "partials/footer";
 
-// Simple Mixin
-@mixin inline-list {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-	
-	li {
-		display: inline-block;
-	}
-}
-
-.header ul {
-	@include inline-list();
-  li {
-    background-color: black;
-    padding: .7em;
-    a {
-      color:white;
-    }
-  }
-}
-
-.footer ul {
-  @include inline-list();
-  li {
-    background-color: pink;
-    padding: .4em;
-    a {
-      text-decoration: none;
-      color:white;
-    }
-  }
-}
-
-// Arguments Mixin
-@mixin flex($direction: row, $space: center) {
-  display: flex;
-  justify-content: $space;
-  align-items: center;
-  flex-direction: $direction;
-}
-
-.container {
-  @include flex(row-reverse, space-around);
-  width: 600px;
-  height: 400px;
-  background-color: gray;
-  .box {
-    width: 60px;
-    height: 60px;
-    background-color: #bada55;
-    text-align: center;
-    line-height: 60px;
-  }
-}
+// Use
+@use "partials/header";
+@use "partials/container";
+@use "partials/footer";

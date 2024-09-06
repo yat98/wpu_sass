@@ -1,0 +1,13 @@
+@use "subpartials/mixin";
+
+.footer ul {
+  @include mixin.inline-list();
+  li {
+    background-color: pink;
+    padding: .4em;
+    a {
+      text-decoration: none;
+      color:white;
+    }
+  }
+}
