@@ -1,51 +1,110 @@
-.header ul {
+body {
+  min-height: 10000px;
+}
+
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle-profile {
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.nav {
+  background-color: #999;
+  color: #ddd;
+}
+
+.right {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-left-color: black;
+}
+
+.left {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-right-color: black;
+}
+
+.gradient {
   margin: 0px;
   padding: 0px;
-  list-style: none;
+  list-style-type: none;
 }
-.header ul li {
-  display: inline-block;
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #008f8f;
 }
-.header ul li {
-  background-color: black;
-  padding: 0.7em;
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #009f9f;
 }
-.header ul li a {
-  color: white;
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #00aeae;
 }
-
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row-reverse;
-  width: 600px;
-  height: 400px;
-  background-color: gray;
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #00bdbd;
 }
-.container .box {
-  width: 60px;
-  height: 60px;
-  background-color: #bada55;
-  text-align: center;
-  line-height: 60px;
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #00cdcd;
 }
-
-.footer ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #00dcdc;
 }
-.footer ul li {
-  display: inline-block;
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #00ebeb;
 }
-.footer ul li {
-  background-color: pink;
-  padding: 0.4em;
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #00fafa;
 }
-.footer ul li a {
-  text-decoration: none;
-  color: white;
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #0bffff;
+}
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #1affff;
 }
 
-/*# sourceMappingURL=main.css.map */
+.socials {
+  font-size: 2em;
+  font-family: Arial;
+  font-weight: bold;
+}
+.socials .youtube {
+  color: #ff0000;
+}
+.socials .facebook {
+  color: #3b5998;
+}
+.socials .x {
+  color: #000;
+}
+.socials .instagram {
+  color: #ffbf34;
+}
+.socials .twitch {
+  color: #8134af;
+}/*# sourceMappingURL=main.css.map */
