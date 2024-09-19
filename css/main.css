@@ -1,110 +1,53 @@
-body {
-  min-height: 10000px;
+h1 {
+  color: salmon;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  text-align: center;
 }
 
-.square-profile {
-  width: 200px;
-  height: 200px;
-  border: 5px solid white;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+/* adjust-color(
+  $color, 
+  $red: 0, $green: 0, $blue: 0, 
+  $hue: 0, $saturation: 0, 
+  $lightness: 0, whiteness: 0, blackness: 0, 
+  $alpha: 1
+); */
+h1 {
+  color: #fa72a8;
 }
 
-.circle-profile {
-  width: 80px;
-  height: 80px;
-  border: 5px solid white;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
+h1 {
+  color: #72ecfa;
 }
 
-.nav {
-  background-color: #999;
-  color: #ddd;
+h1 {
+  color: #cc1b07;
 }
 
-.right {
-  width: 0px;
-  height: 0px;
-  background-color: transparent;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 1em;
-  border-left-color: black;
+h1 {
+  color: #fcaca3;
 }
 
-.left {
-  width: 0px;
-  height: 0px;
-  background-color: transparent;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 1em;
-  border-right-color: black;
+h1 {
+  color: #ff7c6d;
 }
 
-.gradient {
-  margin: 0px;
-  padding: 0px;
-  list-style-type: none;
-}
-.gradient li:nth-child(1) {
-  padding: 4px;
-  background-color: #008f8f;
-}
-.gradient li:nth-child(2) {
-  padding: 4px;
-  background-color: #009f9f;
-}
-.gradient li:nth-child(3) {
-  padding: 4px;
-  background-color: #00aeae;
-}
-.gradient li:nth-child(4) {
-  padding: 4px;
-  background-color: #00bdbd;
-}
-.gradient li:nth-child(5) {
-  padding: 4px;
-  background-color: #00cdcd;
-}
-.gradient li:nth-child(6) {
-  padding: 4px;
-  background-color: #00dcdc;
-}
-.gradient li:nth-child(7) {
-  padding: 4px;
-  background-color: #00ebeb;
-}
-.gradient li:nth-child(8) {
-  padding: 4px;
-  background-color: #00fafa;
-}
-.gradient li:nth-child(9) {
-  padding: 4px;
-  background-color: #0bffff;
-}
-.gradient li:nth-child(10) {
-  padding: 4px;
-  background-color: #1affff;
+h1 {
+  color: #b6b6b6;
 }
 
-.socials {
-  font-size: 2em;
-  font-family: Arial;
-  font-weight: bold;
+h1 {
+  color: #b6b6b6;
 }
-.socials .youtube {
-  color: #ff0000;
+
+h1 {
+  color: #c8668e;
 }
-.socials .facebook {
-  color: #3b5998;
+
+h1 {
+  color: rgba(250, 128, 114, 0.9);
 }
-.socials .x {
-  color: #000;
-}
-.socials .instagram {
-  color: #ffbf34;
-}
-.socials .twitch {
-  color: #8134af;
+
+h1 {
+  color: rgba(250, 128, 114, 0.3);
 }/*# sourceMappingURL=main.css.map */
